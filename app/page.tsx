@@ -1,26 +1,19 @@
 import Image from "next/image";
 import { Box, Card, Center, CardHeader, CardBody, CardFooter, Text, Flex } from '@chakra-ui/react'
+import WelcomeMessage from "./welcome";
+import Data from "./data";
 
 export default function Home() {
   return (
     <Box>
-      <Center m={50}>
-        <Card >
-          <CardHeader pb={1}>
-            <Text
-              bgGradient='linear(to-l, #3083DC, #172A3A)'
-              bgClip='text'
-              fontSize='3xl'
-              fontWeight='extrabold'
-            >
-              Welcome to Wealth Watch
-            </Text>
-          </CardHeader>
-          <CardBody pt={1}>
-            <Center>Doing what it takes to get the furture you want.</Center>
-          </CardBody>
-        </Card>
-      </Center>
+      <Box mt={100} mb={25}>
+        <WelcomeMessage/>
+      </Box>
+      
+      <Box mt={25} p={10}>
+        <Data/>
+      </Box>
+      
     </Box>
   );
 }
