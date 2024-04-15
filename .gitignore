@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# data related
+/app/processData/statements/2024
+/app/processData/statements/2023
+/app/processData/newJson.json
+
 # dependencies
 /node_modules
 /.pnp
