@@ -1,31 +1,31 @@
 import { TableContainer, Table, TableCaption, Thead, Tr, Th, Tbody, Td, Tfoot, Center } from "@chakra-ui/react";
 import fs from 'fs';
 import path from 'path';
-import processPayments  from "../../processData/processStatements";
+// import processPayments  from "../../processData/processStatements";
 
 export default function DataTable (){
 
-    async function readCsvData() {
-        console.log("how you doing");
-        try {
-            console.log("its been a long time");
-            // const filePath = path.join(process.cwd(), "/app/components/dashboard/table_content.json");
-            const filePath = path.join(process.cwd(), "app/processData/newJson.json")
+    // async function readCsvData() {
+    //     console.log("how you doing");
+    //     try {
+    //         console.log("its been a long time");
+    //         // const filePath = path.join(process.cwd(), "/app/components/dashboard/table_content.json");
+    //         const filePath = path.join(process.cwd(), "app/processData/newJson.json")
 
-            const jsonData = await fs.promises.readFile(filePath, "utf-8");
-            const data = JSON.parse(jsonData);
-            console.log(data);
+    //         const jsonData = await fs.promises.readFile(filePath, "utf-8");
+    //         const data = JSON.parse(jsonData);
+    //         console.log(data);
 
-        } catch (error) {
-            console.error("Whoops!", error);
-            throw error;
-        }
-    }
-    readCsvData();
+    //     } catch (error) {
+    //         console.error("Whoops!", error);
+    //         throw error;
+    //     }
+    // }
+    // readCsvData();
 
-    //TODO: Fix this
-    const csvData = processPayments();
-    console.log("look here: --->",csvData);
+    // //TODO: Fix this
+    // const csvData = processPayments();
+    // console.log("look here: --->",csvData);
 
     return (
         <>

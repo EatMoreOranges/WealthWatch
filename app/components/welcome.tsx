@@ -7,8 +7,9 @@ export default function WelcomeMessage() {
         <Card>
           <CardHeader pb={1}>
             <Text
+              bgGradient='linear(to-l, #3083DC, #FF715B)'
               // bgGradient='linear(to-l, #3083DC, #172A3A)'
-              bgGradient='linear(to-l, #172A3A, #172A3A)'
+              // bgGradient='linear(to-l, #172A3A, #172A3A)'
               bgClip='text'
               fontSize='3xl'
               fontWeight='extrabold'

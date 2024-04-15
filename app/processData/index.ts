@@ -1,4 +1,4 @@
-// paymentProcessor/index.ts
-import { default as processPayments } from "./processStatements";
+// // paymentProcessor/index.ts
+// import { default as processPayments } from "./processStatements";
 
-export { processPayments };
+// export { processPayments };

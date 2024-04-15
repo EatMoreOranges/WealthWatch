@@ -7,7 +7,7 @@ import { darkMode } from "./theme/colors";
 
 export default function Home() {
   return (
-    <Box bg={darkMode.seaweed}>
+    <Box >
       <Box mt={100} mb={25}>
         <WelcomeMessage/>
       </Box>
