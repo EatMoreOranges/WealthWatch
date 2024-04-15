@@ -1,0 +1,8 @@
+{
+    "headerNames": ["items","cost","category"],
+    "tableBody": [
+        ["amazon", "$60", "clothes"],
+        ["walmart", "$120", "food"],
+        ["murphy auto", "$60", "gas"]
+    ]
+}

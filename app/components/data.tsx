@@ -5,38 +5,38 @@ export default function Data(){
         <Center >
             <TableContainer>
                 <Table variant='striped' >
-                    <TableCaption>Imperial to metric conversion factors</TableCaption>
+                    <TableCaption>Credit card transaction items from January 2024</TableCaption>
                     <Thead>
                         <Tr>
-                        <Th>To convert</Th>
-                        <Th>into</Th>
-                        <Th isNumeric>multiply by</Th>
+                        <Th>Date</Th>
+                        <Th>Comany</Th>
+                        <Th isNumeric>Amount</Th>
                         </Tr>
                     </Thead>
                     <Tbody>
                         <Tr>
-                        <Td>inches</Td>
-                        <Td>millimetres (mm)</Td>
-                        <Td isNumeric>25.4</Td>
+                        <Td>Jan. 4</Td>
+                        <Td>Netflix</Td>
+                        <Td isNumeric>$25.4</Td>
                         </Tr>
                         <Tr>
-                        <Td>feet</Td>
-                        <Td>centimetres (cm)</Td>
-                        <Td isNumeric>30.48</Td>
+                        <Td>Jan. 6</Td>
+                        <Td>Target</Td>
+                        <Td isNumeric>$30.48</Td>
                         </Tr>
                         <Tr>
-                        <Td>yards</Td>
-                        <Td>metres (m)</Td>
-                        <Td isNumeric>0.91444</Td>
+                        <Td>Jan. 11</Td>
+                        <Td>Exxon Mobile</Td>
+                        <Td isNumeric>$258.92</Td>
                         </Tr>
                     </Tbody>
-                    <Tfoot>
+                    {/* <Tfoot>
                         <Tr>
                         <Th>To convert</Th>
                         <Th>into</Th>
                         <Th isNumeric>multiply by</Th>
                         </Tr>
-                    </Tfoot>
+                    </Tfoot> */}
                 </Table>
             </TableContainer> 
         </Center>
